@@ -7,4 +7,4 @@ number_of_happier = list(filter(lambda x: x >= average_happiness, employees_happ
 if len(number_of_happier) < len(employees_happiness) / 2:
     print(f"Score: {len(number_of_happier)}/{len(employees_happiness)}. Employees are not happy!")
 else:
-    print(f"Score: {len(number_of_happier)}/{len(employees_happiness)}. Employees are not happy!")
+    print(f"Score: {len(number_of_happier)}/{len(employees_happiness)}. Employees are happy!")
